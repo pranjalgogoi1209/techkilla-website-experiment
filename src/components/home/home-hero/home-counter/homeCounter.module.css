@@ -1,0 +1,22 @@
+.mainContainer {
+  /* border: 1px solid black; */
+}
+
+/* .logoContainer {
+  border: 1px solid black;
+} */
+
+.counterContainer {
+  /* border: 1px solid black; */
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titleContainer {
+  text-align: center;
+  /* border: 1px solid black; */
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
