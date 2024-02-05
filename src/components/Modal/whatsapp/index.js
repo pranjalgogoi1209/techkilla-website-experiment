@@ -10,7 +10,7 @@ import styles from "./whatsappModal.module.css";
 import closeBtn from "./../../../../public/assets/home/whatsapp-modal/cancel-btn.png";
 
 const WhatsappModal = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     // Check if the modal has been shown before
