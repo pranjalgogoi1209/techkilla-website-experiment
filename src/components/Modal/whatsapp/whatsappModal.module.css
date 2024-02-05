@@ -13,7 +13,8 @@
 .header {
   /* border: 1px solid black; */
   background-color: #085d50;
-  border-radius: 50px 50px 0 0;
+  /* border-radius: 50px 50px 0 0; */
+  border-radius: 1vw 1vw 0 0;
   display: flex;
   justify-content: space-between;
   gap: 2vw;
@@ -40,6 +41,7 @@
 .contentContainer .description {
   color: #fff;
   font-size: 17px;
+  /* font-size: 1.5vw; */
   /* border: 1px solid black; */
   margin: 0;
 }
@@ -50,7 +52,8 @@
 
 .main {
   /* border: 1px solid black; */
-  border-radius: 0 0 50px 50px;
+  /* border-radius: 0 0 50px 50px; */
+  border-radius: 0 0 1vw 1vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -58,7 +61,8 @@
 }
 
 .main .comingMsg {
-  width: 50%;
+  /* width: 50%; */
+  width: 60%;
   height: 40%;
   /* border: 1px solid black; */
 }
@@ -87,6 +91,10 @@
   .header {
     /* border: 2px solid black; */
     gap: 2vw;
+    border-radius: 2vw 2vw 0 0;
+  }
+  .contentContainer .description {
+    font-size: 4vw;
   }
   .main {
     /* height: 200px; */
@@ -104,6 +112,9 @@
   .header {
     /* border: 2px solid black; */
     gap: 2vw;
+  }
+  .contentContainer .description {
+    font-size: 3vw;
   }
   .main {
     /* height: 200px; */
