@@ -19,7 +19,11 @@
   justify-content: space-between;
   gap: 2vw;
   align-items: center;
-  padding: 20px;
+  padding: 12px;
+}
+.leftHeader {
+  display: flex;
+  gap: 1vw;
 }
 .logoContainer {
   border: 1.3px solid #fff;
@@ -92,6 +96,10 @@
     /* border: 2px solid black; */
     gap: 2vw;
     border-radius: 2vw 2vw 0 0;
+  }
+  .leftHeader {
+    display: flex;
+    gap: 2vw;
   }
   .contentContainer .description {
     font-size: 4vw;

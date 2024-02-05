@@ -46,19 +46,21 @@ const WhatsappModal = () => {
           {/* wts-name */}
           {/* wts-headline */}
           <div className={styles.header}>
-            <div className={`wts-profile-icon ${styles.logoContainer}`}>
-              <Image
-                src="/logo/robo.jpg"
-                alt="techkilla"
-                width={100}
-                height={100}
-              />
-            </div>
-            <div className={styles.contentContainer}>
-              <p className={styles.title}>Techkilla</p>
-              <p className={styles.description}>
-                Advanced Technology Solutions
-              </p>
+            <div className={styles.leftHeader}>
+              <div className={`wts-profile-icon ${styles.logoContainer}`}>
+                <Image
+                  src="/logo/robo.jpg"
+                  alt="techkilla"
+                  width={100}
+                  height={100}
+                />
+              </div>
+              <div className={styles.contentContainer}>
+                <p className={styles.title}>Techkilla</p>
+                <p className={styles.description}>
+                  Advanced Technology Solutions
+                </p>
+              </div>
             </div>
             <button className={styles.close} onClick={handleClose}>
               {/* <AiOutlineCloseCircle /> */}
