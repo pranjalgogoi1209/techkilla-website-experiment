@@ -31,6 +31,7 @@ const WhatsappModal = () => {
 
   return (
     <>
+      {/* aria-labelledby={styles.whatsappModal} */}
       <Modal
         show={show}
         onHide={handleClose}
@@ -39,6 +40,7 @@ const WhatsappModal = () => {
         data-aos-delay="0"
         className={styles.whatsappModal}
       >
+        {/* aria-labelledby={styles.modelBody} */}
         <Modal.Body className={styles.modelBody}>
           {/* wts-header */}
           {/* wts-profile-content */}

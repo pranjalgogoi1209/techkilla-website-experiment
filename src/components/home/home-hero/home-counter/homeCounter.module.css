@@ -1,22 +1,21 @@
 .mainContainer {
   /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  font-family: "popins";
 }
-
-/* .logoContainer {
-  border: 1px solid black;
+/* .parentContainer {
+  border: 2px solid green;
 } */
-
-.counterContainer {
+.cnt {
   /* border: 1px solid black; */
-  font-size: 2vw;
   font-weight: bold;
+  font-size: 2.8vw;
   text-align: center;
 }
-
-.titleContainer {
-  text-align: center;
+.title {
   /* border: 1px solid black; */
-  font-size: 0.8vw;
-  text-transform: uppercase;
+  font-size: 1.3vw;
+  text-align: center;
   font-weight: bold;
 }

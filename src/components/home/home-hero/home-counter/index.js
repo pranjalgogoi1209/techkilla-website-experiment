@@ -5,12 +5,11 @@ import { Col, Row } from "react-bootstrap";
 // import Image from "next/image";
 import styles from "./homeCounter.module.css";
 
+// counting feature
 const DynamicCountUp = dynamic(() => import("react-countup"), { ssr: false });
 
 const Counter = () => {
-  const [isVisible, setIsVisible] = useState(true);
-  const counterRef = useRef(null);
-  useEffect(() => {
+  /*   useEffect(() => {
     const handleScroll = () => {
       const divElement = counterRef?.current;
       if (!divElement) return;
@@ -26,7 +25,7 @@ const Counter = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, []); */
 
   const counterData = [
     {
@@ -54,7 +53,7 @@ const Counter = () => {
       alt: "Organic Impressions",
       count: (
         <>
-          <DynamicCountUp start={0} end={5} duration={2.5} />
+          <DynamicCountUp start={0} end={5} duration={5} />
           M+
         </>
       ),
@@ -65,49 +64,26 @@ const Counter = () => {
       alt: "Pro Awards Winner",
       count: (
         <>
-          <DynamicCountUp start={0} end={3} duration={2.5} />+
+          <DynamicCountUp start={0} end={3} duration={6.5} />+
         </>
       ),
       title: "Pro Awards Winner",
     },
   ];
   return (
-    <div ref={counterRef}>
-      {isVisible && (
-        <Row>
-          {counterData?.map((item, keys) => {
-            return (
-              <Col
-                xl={3}
-                lg={3}
-                md={6}
-                sm={12}
-                key={keys}
-                // data-aos="zoom-in-up"
-                // data-aos-delay={0}
-              >
-                <div className={`recode my-0 py-0 ${styles.mainContainer}`}>
-                  {/* <div className="recodeIcon"> */}
-                  {/* <div className={styles.logoContainer}>
-                    <Image
-                      src={item?.icon}
-                      alt={item?.alt}
-                      width={1920}
-                      height={1080}
-                    />
-                  </div> */}
-
-                  {/* <div className="recodeData">{item?.count}</div> */}
-                  <div className={styles.counterContainer}>{item?.count}</div>
-
-                  {/* <div className="recodeTitle">{item?.title}</div> */}
-                  <div className={styles.titleContainer}>{item?.title}</div>
-                </div>
-              </Col>
-            );
-          })}
-        </Row>
-      )}
+    <div className={styles.mainContainer}>
+      {counterData?.map((item, keys) => (
+        // recode my-0 py-0
+        <div
+          className={`${styles.parentContainer}`}
+          key={keys}
+          // data-aos="zoom-in-up"
+          // data-aos-delay={0}
+        >
+          <div className={styles.cnt}>{item?.count}</div>
+          <div className={styles.title}>{item?.title}</div>
+        </div>
+      ))}
     </div>
   );
 };

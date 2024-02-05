@@ -30,9 +30,9 @@ const Home = () => {
         <WhatsappModal />
         <div className="main">
           {/* home-hero section */}
-          {/* <HomeHero /> */}
+          <HomeHero />
           {/* hero section  */}
-          <Hero isContinue={true} />
+          {/* <Hero isContinue={true} /> */}
           {/* what we do section  */}
           <WhatWeDo />
           {/* service section  */}

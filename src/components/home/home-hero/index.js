@@ -16,24 +16,27 @@ export default function HomeHero() {
       "Unique QR code solutions",
     ],
     loop: {},
-    typeSpeed: 10,
-    deleteSpeed: 10,
+    typeSpeed: 8,
+    deleteSpeed: 8,
   });
   return (
     <div className={styles.homeHero}>
+      <head></head>
       <video autoPlay muted loop className={styles.backgroundVideo}>
         <source src="/video/heroBackgroundLong.mp4" type="video/mp4" />
       </video>
       <div className={styles.parentContainer}>
-        <div className={styles.contentContainer}>
-          <h1>Crafting memorable experiences with:</h1>
-          <span className={styles.typeEffect}>{typeEffect}</span>
+        <div className={styles.leftContainer}>
+          <div className={styles.content}>
+            <h1>Crafting memorable experiences with</h1>
+            <span className={styles.typeEffect}>{typeEffect}</span>
+          </div>
           <div className={styles.counter}>
             <Counter />
           </div>
-          <div className={styles.logoSlider}>
+          {/* <div className={styles.logoSlider}>
             <LogoSlider />
-          </div>
+          </div> */}
         </div>
         <div className={styles.animatedVideo}>video</div>
       </div>
