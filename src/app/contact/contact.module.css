@@ -1,0 +1,11 @@
+.imgContainer {
+  /* border: 1px solid black; */
+  height: 75%;
+  margin-bottom: auto;
+  padding: 4vw;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
