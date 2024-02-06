@@ -14,8 +14,12 @@ const QrRegistration = () => {
         <span className="section__title-line-center">
           {" "}
           <strong
-            style={{
+            /* style={{
               color: "#fdb714",
+            }} */
+            style={{
+              color: "#212121",
+              textShadow: "0.9px 1px 1px #ffce3a",
             }}
           >
             Project X:
@@ -29,7 +33,14 @@ const QrRegistration = () => {
         data-aos="zoom-in-up"
         data-aos-delay="0"
       >
-        <Link href="/QR-code-solution" style={{ color: "#fdb714" }}>
+        <Link
+          href="/QR-code-solution"
+          // style={{ color: "#fdb714" }}
+          style={{
+            color: "#212121",
+            textShadow: "0.9px 1px 1px #ffce3a",
+          }}
+        >
           QR Code
         </Link>{" "}
         Registration
@@ -55,7 +66,16 @@ const QrRegistration = () => {
           data-aos="zoom-in"
           data-aos-delay="100"
         >
-          How does it <span>function</span>?{" "}
+          How does it{" "}
+          <span
+            style={{
+              color: "#212121",
+              textShadow: "0.9px 1px 1px #ffce3a",
+            }}
+          >
+            function
+          </span>
+          ?{" "}
         </div>
         <div
           className="d-flex justify-content-center"

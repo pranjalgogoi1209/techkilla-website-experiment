@@ -13,7 +13,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 3vw;
+  /* border-radius: 3vw; */
 }
 .parentContainer {
   position: absolute;
@@ -51,11 +51,11 @@
   /* font-variant: small-caps; */
   /* color: #fff; */
   color: #212121;
-  text-shadow: 1px 1px 1px #ffce3a;
+  text-shadow: 0.9px 1px 1px #ffce3a;
   position: relative;
 }
 
-.content h1::after {
+/* .content h1::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -64,7 +64,7 @@
   height: 5px;
   background-color: #ffce3a;
   border-radius: 5px;
-}
+} */
 .content .typeEffect {
   /* border: 1px solid black; */
   font-size: 2.5vw;
@@ -114,7 +114,14 @@
     padding: 4vw;
   }
   .content h1 {
-    font-size: 5vw;
+    font-size: 10vw;
+  }
+  .content .typeEffect {
+    font-size: 5.5vw;
+    font-weight: bold;
+    height: 8vw;
+    width: 100%;
+    line-height: 3.5vw;
   }
   .animatedVideo {
     width: 100%;

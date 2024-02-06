@@ -33,8 +33,10 @@ const Home = () => {
           <HomeHero />
           {/* hero section  */}
           {/* <Hero isContinue={true} /> */}
+
           {/* what we do section  */}
           <WhatWeDo />
+
           {/* service section  */}
           <div className="pb-5" style={{ background: "rgb(245 245 244)" }}>
             <div
@@ -42,7 +44,15 @@ const Home = () => {
               data-aos="zoom-in-down"
               data-aos-delay={100}
             >
-              Our <span>Services</span>
+              Our{" "}
+              <span
+                style={{
+                  color: "#212121",
+                  textShadow: "0.9px 1px 1px #ffce3a",
+                }}
+              >
+                Services
+              </span>
             </div>
           </div>
           <Service bg="/comman/tech.webp" />

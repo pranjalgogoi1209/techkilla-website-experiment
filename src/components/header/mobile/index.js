@@ -18,7 +18,7 @@ const MobileNav = ({ isMobile, setIsMobile }) => {
           <Link href="/" className="logo">
             <Image
               priority
-              src="/logo/logo-01.png"
+              src="/logo/logo-02.png"
               alt="techkilla"
               width={60}
               height={60}

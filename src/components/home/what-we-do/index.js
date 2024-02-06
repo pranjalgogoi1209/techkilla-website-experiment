@@ -6,11 +6,13 @@ import Content from "./content";
 import Button from "@/components/button/";
 import Image from "next/image";
 import WhatWeDoData from "@/data/home/What-We-Do";
+import styles from "./whatWeDo.module.css";
+
 const WhatWeDo = () => {
   return (
     <div className="Section2">
       <Container>
-        <Row>
+        {/* <Row>
           <Col
             lg={6}
             md={12}
@@ -22,12 +24,13 @@ const WhatWeDo = () => {
           <Col lg={6} md={12} sm={12}>
             <Content />
           </Col>
-        </Row>
+        </Row> */}
 
         <h3
           className="colHeading text-center pt-4 mt-4"
           data-aos="fade-up"
           data-aos-delay="0"
+          style={{ color: "#212121", textShadow: "0.9px 1px 1px #ffce3a" }}
         >
           We address your issues to draw customers to your brand.
         </h3>
