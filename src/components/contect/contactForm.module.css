@@ -177,19 +177,22 @@
   .ContactForm {
     padding: 2vw 6vw;
   }
+  .header h1 {
+    font-size: 7vw;
+  }
   .header p {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   .inputBox svg,
   .services svg {
     font-size: 2vw;
   }
   .msg {
-    height: 15vw;
+    height: 25vw;
   }
   .inputBox,
   .msg {
-    padding: 2vw 1.5vw;
+    padding: 3vw 1.5vw;
   }
   .inputBox input {
     font-size: 3vw;
@@ -202,7 +205,7 @@
     font-size: 3vw;
   }
   .msg {
-    height: 20vw;
+    height: 25vw;
   }
   .msg textarea {
     font-size: 3vw;
@@ -216,5 +219,6 @@
     color: #212121;
     padding: 1vw 1.2vw;
     width: 100%;
+    font-size: 4vw;
   }
 }
