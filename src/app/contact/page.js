@@ -19,8 +19,10 @@ const Contact = () => {
         <div className="main">
           <div className="mainContainer">
             <div className="contact container-fluid">
-              <div className="row">
-                <div className="col-lg-6  home-image px-0">
+              <div className={`row ${styles.container}`}>
+                <div
+                  className={`col-lg-6  home-image ${styles.imageParent} px-0`}
+                >
                   <div className={`hero ${styles.imgContainer}`}>
                     {/* <ColLeft /> */}
                     <Image src={contact} alt="contact" />

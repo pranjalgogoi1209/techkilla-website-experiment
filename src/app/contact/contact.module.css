@@ -1,8 +1,19 @@
+.container {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageParent {
+  /* border: 1px solid black; */
+}
+
 .imgContainer {
   /* border: 1px solid black; */
-  height: 75%;
+  height: 50vw;
   margin-bottom: auto;
   padding: 4vw;
+  margin-top: auto;
 }
 
 .imgContainer img {

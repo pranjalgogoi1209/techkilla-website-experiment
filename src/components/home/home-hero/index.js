@@ -3,7 +3,7 @@ import React from "react";
 import styles from "@/components/home/home-hero/homeHero.module.css";
 import Counter from "@/components/home/home-hero/home-counter/index";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import LogoSlider from "@/components/home/home-hero/logo-slider/index";
+// import LogoSlider from "@/components/home/home-hero/logo-slider/index";
 
 export default function HomeHero() {
   const [typeEffect] = useTypewriter({
@@ -21,7 +21,6 @@ export default function HomeHero() {
   });
   return (
     <div className={styles.homeHero}>
-      <head></head>
       <video autoPlay muted loop className={styles.backgroundVideo}>
         <source src="/video/heroBackgroundLong.mp4" type="video/mp4" />
       </video>

@@ -2,6 +2,8 @@
   /* border: 1px solid black; */
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "popins";
 }
 /* .parentContainer {
@@ -18,4 +20,24 @@
   font-size: 1.3vw;
   text-align: center;
   font-weight: bold;
+}
+
+/* for tablet */
+@media screen and (max-width: 600px) {
+  .cnt {
+    font-size: 4.4vw;
+  }
+  .title {
+    font-size: 2.4vw;
+  }
+}
+
+/* for mobile */
+@media screen and (max-width: 480px) {
+  .cnt {
+    font-size: 6vw;
+  }
+  .title {
+    font-size: 2.5vw;
+  }
 }

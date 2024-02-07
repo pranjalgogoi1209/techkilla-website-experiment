@@ -6,17 +6,17 @@
   gap: 2vw;
 }
 
-.header {
-  /* border: 1px solid black; */
-}
+/* .header {
+  border: 1px solid black;
+} */
 
 .header h1 {
   font-weight: bold;
 }
 
-.header p {
-  /* font-weight: bold; */
-}
+/* .header p {
+  font-weight: bold;
+} */
 
 .form {
   display: flex;
